@@ -1,22 +1,90 @@
+
+/* Mengatur tampilan seluruh halaman */
 body {
-    background-color: #FEFCE8; /* Warna */
+    background-color: #FEFCE8; /* Latar kuning pastel */
     font-family: Arial, sans-serif;
-    color: #894B0A; /* Warna teks */
+    color: #894B0A; /* Warna teks cokelat */
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+    /* Menempatkan kartu profil di tengah halaman */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Mengatur kartu profil */
 .kartu-profil {
     width: 300px;
-    margin: 50px auto;
+    max-width: 100%;
     padding: 20px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
 }
 
+/* Mengatur foto profil */
 .kartu-profil img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+/* Mengatur judul nama */
+.kartu-profil h1 {
+    font-size: 24px;
+    margin: 15px 0 10px;
+}
+
+/* Mengatur deskripsi profil */
+.kartu-profil p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Mengatur link Instagram */
+.kartu-profil a {
+    display: block;
+    color: #894B0A;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+/* Memberikan efek saat link diarahkan kursor */
+.kartu-profil a:hover {
+    text-decoration: underline;
+}
+
+/* Mengatur tombol About me */
+.kartu-profil button {
+    padding: 10px 20px;
+    background-color: #894B0A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Mengubah tampilan tombol saat kursor diarahkan */
+.kartu-profil button:hover {
+    background-color: #6F3C08;
+}
+
+/* Mengatur tampilan pada layar kecil */
+@media (max-width: 400px) {
+    .kartu-profil {
+        width: 100%;
+    }
+
+    .kartu-profil h1 {
+        font-size: 21px;
+    }
 }
 
