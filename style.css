@@ -4,7 +4,7 @@ body {
     color: #894B0A; /* Warna teks*/
   }
 
-.photo profile {
+My profile {
     width:300px
     margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
     padding: 20px;
@@ -13,6 +13,6 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
 }
 
-.photo profile {
+My profile {
     width:150px;
     border-radius: 50px;
