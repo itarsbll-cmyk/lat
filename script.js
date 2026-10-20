@@ -1,5 +1,5 @@
-// 1. Pilih tombol berdasarkan ID-nya
-const abtMe = document.getElementById('About me');
+// 1. Pilih tombol berdasarkan ID yang sesuai di HTML yaitu 'abtMe'
+const abtMe = document.getElementById('abtMe');
 
 // 2. Tambahkan 'event listener' untuk aksi 'click'
 abtMe.addEventListener('click', function() {
