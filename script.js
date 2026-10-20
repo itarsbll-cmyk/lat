@@ -1,8 +1,16 @@
-// 1. Pilih tombol berdasarkan ID yang sesuai di HTML yaitu 'abtMe'
-const abtMe = document.getElementById('abtMe');
 
-// 2. Tambahkan 'event listener' untuk aksi 'click'
-abtMe.addEventListener('click', function() {
-  // 3. Jalankan kode ini ketika tombol di-klik
-  alert('Halo! Terima kasih sudah berkunjung!');
-});
+// Mengambil tombol About me dari HTML
+const abtMe = document.getElementById("abtMe");
+
+// Memastikan tombol ditemukan sebelum menjalankan kode
+if (abtMe) {
+
+    // Menjalankan fungsi ketika tombol diklik
+    abtMe.addEventListener("click", function () {
+
+        // Menampilkan pesan kepada pengunjung
+        alert("Halo! Terima kasih sudah berkunjung!");
+
+    });
+
+}
