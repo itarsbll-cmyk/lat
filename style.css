@@ -1,11 +1,11 @@
 body {
-    background-color: #FEFCE8; /* Warna*/
+    background-color: #FEFCE8; /* Warna */
     font-family: Arial, sans-serif;
-    color: #894B0A; /* Warna teks*/
-  }
+    color: #894B0A; /* Warna teks */
+}
 
-.My-profile {
-    width:300px
+.kartu-profil {
+    width: 300px;
     margin: 50px auto;
     padding: 20px;
     background-color: white;
@@ -13,6 +13,7 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.My-profile img { 
-    width:150px;
-    border-radius: 50px;
+.kartu-profil img {
+    width: 150px;
+    border-radius: 50%;
+};
